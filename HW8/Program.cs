@@ -138,3 +138,29 @@
 //       Console.WriteLine();
 //     }
 //   }
+// 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+// int[,] array = new int[4, 4];
+// int num = 1;
+// int i = 0;
+// int j = 0;
+// while (num <= (4*4))
+// {
+//     array[i, j] = num;
+//     if (i <= j + 1 && i + j < 4 - 1)
+//     ++j;
+//     else if (i < j && i + j >= 4 - 1)
+//     ++i;
+//     else if (i >= j && i + j > 4 - 1)
+//     --j;
+//     else
+//     --i;
+//     ++num;
+// }
+// for (int k = 0; k < array.GetLength(0); k++)
+//     {
+//         for (int l = 0; l < array.GetLength(1); l++)
+//         {
+//             Console.Write(array[k, l] + " ");
+//         }
+//         Console.WriteLine("");
+//     }
